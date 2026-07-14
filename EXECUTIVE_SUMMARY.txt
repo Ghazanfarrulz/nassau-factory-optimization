@@ -1,0 +1,20 @@
+FACTORY REALLOCATION & SHIPPING OPTIMIZATION
+Nassau Candy Distributor
+
+Project Objective
+This project develops a decision-support system that predicts shipping lead time, compares alternative factories, and recommends product reallocations while balancing operational speed and profitability.
+
+Core Capabilities
+• Cleans and prepares order, shipping, product, region, sales, cost, and profit data.
+• Calculates shipping lead time from order and ship dates.
+• Maps products to their current manufacturing factories.
+• Compares Linear Regression, Random Forest, and Gradient Boosting models.
+• Simulates each product across five possible factories.
+• Produces lead-time reduction, profit impact, risk, confidence, and recommendation scores.
+• Provides an interactive Streamlit dashboard and downloadable results.
+
+Business Value
+The system helps leadership test factory-reallocation scenarios before operational execution. It highlights potential shipping improvements, identifies financial risks, and provides a ranked list of alternatives under user-selected speed-versus-profit priorities.
+
+Data Limitation
+The dataset does not provide real freight charges, customer coordinates, factory capacity, or historical reassignment results. These outputs are therefore scenario-based estimates and should be validated with operational data before implementation.
