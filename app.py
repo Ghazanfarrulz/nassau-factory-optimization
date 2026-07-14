@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "data" / "nassau_candy_distributor.csv"
+DATA_PATH = BASE_DIR / "nassau_candy_distributor.csv"
 CONFIG_PATH = BASE_DIR / "factory_config.json"
 
 REGION_CENTROIDS = {
